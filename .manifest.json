@@ -1,0 +1,88 @@
+{
+  "idea": {
+    "title": "Show HN: Caveat, a self-hosted publishing and newsletter tool",
+    "source_url": "https://github.com/CaveatJS",
+    "source_platform": "Hacker News Show HN",
+    "description": "Caveat is a self-hosted publishing and newsletter tool that allows you to create and manage your content without relying on any paid services. It provides features like a clean and responsive interface, easy-to-use drag-and-drop editor, and real-time updates.",
+    "suggested_language": "JavaScript"
+  },
+  "spec": {
+    "name": "Caveat: Self-Hosted Publishing and Newsletter Tool",
+    "slug": "caveat-self-hosted-publishing-newsletter-tool",
+    "language": "JavaScript",
+    "description": "Caveat is a self-hosted publishing and newsletter tool designed to allow users to create and manage their content without relying on paid services. It offers a clean and responsive interface, an easy-to-use drag-and-drop editor, and real-time updates.",
+    "problem": "Caveat solves the problem of managing and publishing content without the need for external services, providing users with more control and security over their content. This can be particularly useful for individuals or small organizations who want to have full control over their online presence.",
+    "files": [
+      {
+        "path": "public/index.html",
+        "purpose": "Main page"
+      },
+      {
+        "path": "src/index.js",
+        "purpose": "Main script"
+      },
+      {
+        "path": "src/editor.js",
+        "purpose": "Editor functionality"
+      },
+      {
+        "path": "src/content.js",
+        "purpose": "Content management"
+      },
+      {
+        "path": "src/settings.js",
+        "purpose": "Settings and configuration"
+      },
+      {
+        "path": "src/utils.js",
+        "purpose": "Utility functions"
+      },
+      {
+        "path": "src/api.js",
+        "purpose": "API integration"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "file": "src/index.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/editor.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/content.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/settings.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/utils.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "src/api.js",
+      "tool": "node --check",
+      "ok": true,
+      "error": ""
+    }
+  ],
+  "engine": "ollama (qwen2.5-coder:3b)",
+  "target_skill": "automation",
+  "generated_at": "2026-09-08 10:26:01",
+  "project_dir": "c:\\projects saad\\code cladu poject\\projt gent\\generated\\caveat-self-hosted-publishing-newsletter-tool"
+}
